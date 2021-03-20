@@ -77,7 +77,7 @@ const should = require('chai').should();
 const request = require('supertest');
 const app = require('../app');
 const config = require('./test.config');
-const { noteModel }= require('../modules');
+const  noteModel = require('../modules').noteModel;
 // getting config data 
 const note_user1 = config.note_user1;
 const note_user2 = config.note_user2;

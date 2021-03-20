@@ -17,15 +17,15 @@ module.exports = {
     status: 'not-started'
   },
   user: {
-    username: 'admin@gmail.com',
+    userName: 'admin@gmail.com',
     password: 'admin'
   },
   wrongPassword: {
-    username: 'admin@gmail.com',
+    userName: 'admin@gmail.com',
     password: 'admin1'
   },
   wrongUserName: {
-      username: 'admin1@gmail.com',
+      userName: 'admin1@gmail.com',
       password: 'admin1'
   }
 };
